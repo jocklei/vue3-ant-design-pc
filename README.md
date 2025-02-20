@@ -2,27 +2,13 @@
 
 <img src="https://cdn.jsdelivr.net/gh/easy-temps/easy-static/cover.png" alt="cover" />
 
-<h1 align="center">vue3-ant-design-pc/Vue3-Dapp-Demo</h1>
+<h1 align="center">vue3-ant-design-pc</h1>
 
 English / [简体中文](./README.zh-CN.md)
 
 An mobile web apps template based on the Vue 3 ecosystem.
 
-一个集成了Vue3和vant组件库的生态系统的移动web应用和Dapp模板，帮助你快速完成业务开发，功能不断添加中，欢迎star和fork！
-
-<p>
-<img src="https://img.shields.io/github/license/easy-temps/vue3-ant-design-pclt="license" />
-<img src="https://img.shields.io/github/package-json/v/easy-temps/vue3-ant-design-pclt="version" />
-<img src="https://img.shields.io/github/repo-size/easy-temps/vue3-ant-design-pclt="repo-size" />
-<img src="https://img.shields.io/github/languages/top/easy-temps/vue3-ant-design-pclt="languages" />
-<img src="https://img.shields.io/github/issues-closed/easy-temps/vue3-ant-design-pclt="issues" />
-</p>
-
-[文档](https://easy-temps.github.io/easy-docs/vue3-ant-design-pc/ [交流](https://github.com/easy-temps/vuevue3-ant-design-pcs/56) / [反馈](https://github.com/easy-temps/vue3-avue3-ant-design-pc
-
-<a href="https://vue3-ant-design-pctlify.app">🖥 Live Demo</a>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e6828bd2-2904-4c3e-a67c-b97d32aa1275/deploy-status)](https://app.netlify.com/sites/vue3-ant-design-pcploys)
+一个集成了Vue3和ant-design-vue组件库的生态系统的移动web应用，帮助你快速完成业务开发，功能不断添加中，欢迎star和fork！
 
 </div>
 
@@ -31,8 +17,6 @@ An mobile web apps template based on the Vue 3 ecosystem.
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 6](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
-
-- 📱 [Web3.js](https://docs.web3js.org/) Integrated Dapp interaction plugin Web3.js
 
 - 🗂 [File based routing](./src/router)
 
