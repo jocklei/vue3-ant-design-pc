@@ -2,7 +2,6 @@ import axios from 'axios'
 import axiosRetry from 'axios-retry'
 import type { AxiosError, InternalAxiosRequestConfig } from 'axios'
 
-// import { showNotify } from 'vant'
 import useAuthStore from '@/stores/modules/auth'
 
 // 可以根据自己的需要修改，常见的如 Access-Token，Authorization

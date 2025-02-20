@@ -56,8 +56,6 @@ An mobile web apps template based on the Vue 3 ecosystem.
 
 - 🌈 Git [hooks](./.husky) - 提交代码 eslint 检测 和 提交规范检测
 
-- 🪶 [Vant](https://github.com/youzan/vant) - 移动端 Vue 组件库
-
 - 🔭 [vConsole](https://github.com/vadxq/vite-plugin-vconsole) - 移动端网页开发工具
 
 - 📱 浏览器适配 - 使用 viewport vw/vh 单位布局
@@ -79,9 +77,6 @@ An mobile web apps template based on the Vue 3 ecosystem.
 - [UnoCSS](https://github.com/antfu/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
   - [`@unocss/preset-rem-to-px`](https://github.com/unocss/unocss/tree/main/packages/preset-rem-to-px) - 将所有实用程序的 rem 转换为 px
   - [`eslint-plugin-unocss`](https://github.com/devunt/eslint-plugin-unocss) - Unocss 的 ESLint 插件
-- [Vant](https://github.com/youzan/vant) - 移动端 Vue 组件库
-  - [`vant-touch-emulator`](https://github.com/youzan/vant/tree/main/packages/vant-touch-emulator) - 在桌面端上模拟移动端 touch 事件
-  - [`vant-use`](https://github.com/youzan/vant/tree/main/packages/vant-use) - Vant 内置的组合式 API
 
 ### 插件
 
