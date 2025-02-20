@@ -1,8 +1,10 @@
 import { createApp } from 'vue'
 import { createHead } from '@unhead/vue'
+
 import 'virtual:uno.css'
 import '@/styles/var.less'
 import '@/styles/app.less'
+import 'ant-design-vue/dist/reset.css'
 
 import App from '@/App.vue'
 import pinia from '@/stores'

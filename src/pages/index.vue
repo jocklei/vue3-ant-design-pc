@@ -1,8 +1,15 @@
 <script setup lang="ts">
+useHead({
+  title: '首页',
+})
 </script>
 
 <template>
-  <div>首页</div>
+  <div>
+    <a-button type="primary">
+      Primary Button
+    </a-button>
+  </div>
 </template>
 
 <route lang="json5">
