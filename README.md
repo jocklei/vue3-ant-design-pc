@@ -6,8 +6,6 @@
 
 English / [简体中文](./README.zh-CN.md)
 
-An mobile web apps template based on the Vue 3 ecosystem.
-
 一个集成了Vue3和ant-design-vue组件库的生态系统的移动web应用，帮助你快速完成业务开发，功能不断添加中，欢迎star和fork！
 
 </div>
@@ -46,8 +44,6 @@ An mobile web apps template based on the Vue 3 ecosystem.
 
 - 🌈 Git [hooks](./.husky) - lint and commit
 
-- 🪶 [Vant](https://github.com/youzan/vant) - Vue UI library for mobile web apps
-
 - 🔭 [vConsole](https://github.com/vadxq/vite-plugin-vconsole) - the developer tool for mobile web page
 
 - 📱 Browser adaptation - use viewport vw/vh units
@@ -69,9 +65,6 @@ An mobile web apps template based on the Vue 3 ecosystem.
 - [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine
   - [`@unocss/preset-rem-to-px`](https://github.com/unocss/unocss/tree/main/packages/preset-rem-to-px) - Converts rem to px for all utilities
   - [`eslint-plugin-unocss`](https://github.com/devunt/eslint-plugin-unocss) - ESLint plugin for UnoCSS
-- [Vant](https://github.com/youzan/vant) - Vue UI library for mobile web apps
-  - [`vant-touch-emulator`](https://github.com/youzan/vant/tree/main/packages/vant-touch-emulator) - Simulate mobile touch events on the desktop
-  - [`vant-use`](https://github.com/youzan/vant/tree/main/packages/vant-use) - Built-in composition APIs of Vant
 
 ### Plugins
 
