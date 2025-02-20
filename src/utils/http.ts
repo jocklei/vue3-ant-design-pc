@@ -2,7 +2,7 @@ import axios from 'axios'
 import axiosRetry from 'axios-retry'
 import type { AxiosError, InternalAxiosRequestConfig } from 'axios'
 
-import { showNotify } from 'vant'
+// import { showNotify } from 'vant'
 import useAuthStore from '@/stores/modules/auth'
 
 // 可以根据自己的需要修改，常见的如 Access-Token，Authorization
@@ -28,7 +28,8 @@ export type RequestError = AxiosError<{
 
 // 通用通知函数
 function notifyError(type: 'danger', message: string) {
-  showNotify({ type, message })
+  // showNotify({ type, message })
+  console.log(type, message)
 }
 
 // 请求拦截器

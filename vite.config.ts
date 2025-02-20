@@ -46,13 +46,13 @@ export default ({ mode }: ConfigEnv): UserConfig => {
           // https://github.com/wswmsword/postcss-mobile-forever
           viewport({
             appSelector: '#app',
-            viewportWidth: 375,
-            maxDisplayWidth: 600,
-            rootContainingBlockSelectorList: [
-              'van-tabbar',
-              'van-popup',
-            ],
+            viewportWidth: 1920,
+            // maxDisplayWidth: 600,
+            rootContainingBlockSelectorList: [],
             border: true,
+            experimental: {
+              minDisplayWidth: 1200,
+            },
           }),
         ],
       },

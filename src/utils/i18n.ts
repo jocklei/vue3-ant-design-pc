@@ -1,20 +1,22 @@
 import { createI18n } from 'vue-i18n'
 
-import { Locale, type PickerColumn } from 'vant'
+// import { Locale, type PickerColumn } from 'vant'
 
-import enUS from 'vant/es/locale/lang/en-US'
-import zhCN from 'vant/es/locale/lang/zh-CN'
+// import enUS from 'vant/es/locale/lang/en-US'
+// import zhCN from 'vant/es/locale/lang/zh-CN'
 
 const FALLBACK_LOCALE = 'zh-CN'
 
-const vantLocales = {
-  'zh-CN': zhCN,
-  'en-US': enUS,
-}
+// const vantLocales = {
+//   'zh-CN': zhCN,
+//   'en-US': enUS,
+// }
 
-export const languageColumns: PickerColumn = [
-  { text: '简体中文', value: 'zh-CN' },
-  { text: 'English', value: 'en-US' },
+// export const languageColumns: PickerColumn = [
+//   { text: '简体中文', value: 'zh-CN' },
+//   { text: 'English', value: 'en-US' },
+// ]
+export const languageColumns: any = [
 ]
 
 export const i18n = setupI18n()
@@ -48,7 +50,7 @@ async function setLang(lang: string, i18n: I18n) {
   i18n.global.locale.value = lang
 
   // 设置 vant 组件语言包
-  Locale.use(lang, vantLocales[lang])
+  // Locale.use(lang, vantLocales[lang])
 }
 
 // 加载本地语言包

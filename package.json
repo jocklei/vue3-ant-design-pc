@@ -19,8 +19,6 @@
   },
   "dependencies": {
     "@unhead/vue": "^1.11.14",
-    "@vant/touch-emulator": "^1.4.0",
-    "@vant/use": "^1.6.0",
     "@vueuse/core": "^12.0.0",
     "axios": "^1.7.9",
     "axios-retry": "^4.5.0",
@@ -34,12 +32,12 @@
     "pinia-plugin-persistedstate": "^4.2.0",
     "radash": "^12.1.0",
     "resize-detector": "^0.3.0",
-    "vant": "^4.9.15",
     "vconsole": "^3.15.1",
     "vue": "^3.5.13",
     "vue-hooks-plus": "^2.2.3",
     "vue-i18n": "^10.0.5",
     "vue-router": "^4.5.0",
+    "vue-tsc": "^2.2.2",
     "vue-uuid": "^3.0.0",
     "web3": "^4.16.0"
   },
@@ -52,7 +50,6 @@
     "@types/nprogress": "^0.2.3",
     "@unocss/eslint-plugin": "0.65.2",
     "@unocss/preset-rem-to-px": "0.65.2",
-    "@vant/auto-import-resolver": "^1.2.1",
     "@vitejs/plugin-legacy": "^6.0.0",
     "@vitejs/plugin-vue": "^5.2.1",
     "autoprefixer": "^10.4.20",
@@ -78,8 +75,7 @@
     "vite-plugin-sitemap": "^0.7.1",
     "vite-plugin-vconsole": "^2.1.1",
     "vite-plugin-vue-devtools": "^7.6.8",
-    "vitest": "^2.1.8",
-    "vue-tsc": "^2.1.10"
+    "vitest": "^2.1.8"
   },
   "pnpm": {
     "allowedDeprecatedVersions": {

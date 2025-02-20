@@ -13,7 +13,6 @@ import { VitePWA } from 'vite-plugin-pwa'
 import VueDevTools from 'vite-plugin-vue-devtools'
 import mockDevServerPlugin from 'vite-plugin-mock-dev-server'
 
-import { VantResolver } from '@vant/auto-import-resolver'
 import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
 
 import VueRouter from 'unplugin-vue-router/vite'
@@ -47,7 +46,7 @@ export function createVitePlugins(mode: string) {
     // https://github.com/antfu/unplugin-vue-components
     Components({
       extensions: ['vue'],
-      resolvers: [VantResolver()],
+      resolvers: [],
       include: [/\.vue$/, /\.vue\?vue/],
       dts: 'src/types/components.d.ts',
     }),
@@ -75,7 +74,7 @@ export function createVitePlugins(mode: string) {
       dirs: [
         'src/composables',
       ],
-      resolvers: [VantResolver()],
+      resolvers: [],
     }),
 
     // https://github.com/intlify/bundle-tools/tree/main/packages/unplugin-vue-i18n
